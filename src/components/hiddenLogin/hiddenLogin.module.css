@@ -1,0 +1,82 @@
+.hiddenForm{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+    position: fixed;
+    top: 10vh;
+    right: -400px;
+    transition: all ease-in-out 300ms;
+}
+
+.shownForm{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    transition: all ease-in-out 300ms;
+}
+
+.imageClosed{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -30px;
+    top: calc(10vh + 3px);
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+}
+
+.imageOpened{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -30px;
+    top: calc(10vh + 3px);
+    transform: rotate(0deg);
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+}
+.regButtonsDiv{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    width: 80%;
+} 
+.regButtons{
+    width: 40%;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.regButtons:hover{
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border: none;
+}
+.signUp{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,8 @@
+.postsStyle{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainUl{
+    background-color: aquamarine;
+}

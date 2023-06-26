@@ -1,0 +1,14 @@
+.inputStyle{
+    height: 12%;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    border: none;
+    transition: all ease-in-out 300ms;
+}
+
+.inputStyle::placeholder{
+    font-size: 16px;
+}

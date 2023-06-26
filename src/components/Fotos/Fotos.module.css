@@ -1,0 +1,11 @@
+.fotosBlock{
+    background-color: blueviolet;
+    width: 500px;
+    overflow: scroll;
+    height: 600px;  
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+}
